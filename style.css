@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+input{
+      font-size: 14px;
+      outline: black;
+      padding: 0.6rem 1rem;
+      margin: 1rem;
+      border: 2px solid black;
+      border-radius: 0.5rem;
+      width: 100%;
+      max-width: 258px;
+    }
+
+lable {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+      }
+  
+  button{
+      background: black;
+      border: none;
+      color: #fff;
+      padding: 0.7rem 1rem;
+      border-radius: 0.5rem;
+      font-size: large;
+      cursor: pointer;
+      outline: #fff;
+      margin: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      display: block;
+  
+  }
+
+  div{
+    font-size: x-large;
+    font-weight: 200;
+  }
+  
