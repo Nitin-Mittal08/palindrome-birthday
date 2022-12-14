@@ -146,7 +146,9 @@ const outputEl = document.querySelector("#output");
         day: Number(listOfDate[2]),
         month:Number(listOfDate[1]),
         year:Number(listOfDate[0])
-      };
+      }else{
+          outputEl.innerText = "Please enter a valid date";
+      }
 
       var isPalindrome = checkPalindromeForALlDateFormats(date);
 
